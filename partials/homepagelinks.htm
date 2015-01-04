@@ -1,0 +1,40 @@
+description = "homepage links"
+==
+{% if not currentperiod is null %}
+    {% if currentclass =='1' %}
+        {% set cs1 = "dark" %}
+    {% elseif currentclass =='2' %}
+        {% set cs2 = "dark" %}
+    {% elseif currentclass =='3' %}
+        {% set cs3 = "dark" %}
+    {% elseif currentclass =='4' %}
+        {% set ap = "dark" %}
+    {%endif%}
+    
+   <div class="jumbotron well">
+       <div class="inner">
+            <h2>Welcome to the <i>new</i> MHS Computer Science website!</h2>
+            <p>Looks like it's period {{currentperiod}}.</p>
+            <div class="btn-group">
+                <a  href="{{ 'courses/compsci1'|app }}"  class="btn btn-primary btn-lg light {{cs1}}">Comp Sci 1</a>
+                <a href="{{ 'courses/compsci2'|app }}" class="btn btn-primary btn-lg light {{cs2}}">Comp Sci 2</a>
+                <a href="{{ 'courses/ap-compsci'|app }}" class="btn btn-primary btn-lg light {{ap}}" role="button">AP Computer Science</a>
+            </div>
+            <a  class="btn btn-primary btn-lg" href="{{ 'courses/advanced-robotics'|app }}" >Advanced Robotics</a>
+       </div>
+    </div>
+
+{% else %}
+    <div class="jumbotron well">
+       <div class="inner">
+            <h2>Welcome to the <i>new</i> MHS Computer Science website!</h2>
+            <p>Take a look at the different types of computer science classes offered at MHS.</p>
+            <div class="btn-group">
+                <a  class="btn btn-primary btn-lg" href="{{ 'courses/compsci1'|app }}" >Comp Sci 1</a>
+                <a class="btn btn-primary btn-lg" href="{{ 'courses/compsci2'|app }}" >Comp Sci 2</a>
+                <a class="btn btn-primary btn-lg" href="{{ 'courses/ap-compsci'|app }}" >AP Computer Science</a>   
+            </div>
+             <a  class="btn btn-primary btn-lg" href="{{ 'courses/advanced-robotics'|app }}" >Advanced Robotics</a>
+       </div>
+    </div>
+{%endif%}

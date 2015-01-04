@@ -1,0 +1,6 @@
+This is a new file
+It should have 3 lines
+and 13 words
+This is an appended file
+It should have 3 lines
+and 13 words

@@ -1,0 +1,32 @@
+24 floors, 12 people.
+
+1 Sally Normal  50 19
+1 Joe Normal  60 4
+2 Ethan Janitor 80 1
+5 Rajat Normal 60 2
+9 Dan Normal 70 5
+9 Mike Executive 80 13
+10 Mark Normal 60 9
+12 Ian Janitor 70 2
+17 Klein Normal 50 12
+19 Zach Normal 60 1
+22 Christof Executive 70 1
+23 Eric Executive 75 2
+
+ArrayList a = new ArrayList();
+a.add(new Person(1, "Sally", 0,  50, 19));
+a.add(new Person(1 ,"Joe", 0,  60, 4 ));
+a.add(new Person(2, "Ethan", 2, 80, 1 ));
+a.add(new Person(5, "Rajat", 0, 60, 2 ));
+a.add(new Person(9, "Dan", 0, 70, 5 ));
+a.add(new Person(9, "Mike", 1, 80, 13 ));
+a.add(new Person(10, "Mark", 0, 60, 9 ));
+a.add(new Person(12, "Ian", 2, 70, 2 ));
+a.add(new Person(17, "Klein", 0, 50, 12 ));
+a.add(new Person(19, "Zach", 0, 60, 1));
+a.add(new Person(22, "Christof", 1, 70, 1));
+a.add(new Person(23, "Eric", 1, 75, 2 ));
+
+
+
+

@@ -1,0 +1,33 @@
+description = "Courses' pages layout"
+==
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title"><a data-parent="#accordion" data-toggle=
+            "collapse" href="#collapseOne">About Class</a></h4>
+        </div>
+
+        <div class="panel-collapse collapse panel-body" id="collapseOne">
+            {% if page =="ap" %} {% content 'apcompsci/about.htm' %} {% endif
+            %} {% if page =="1" %} {% content 'compsci1/about.htm' %} {% endif
+            %} {% if page =="2" %} {% content 'compsci2/about.htm' %} {% endif
+            %} {% if page =="3" %} {% content 'compsci3/about.htm' %} {% endif
+            %}
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title"><a data-parent="#accordion" data-toggle=
+            "collapse" href="#collapseTwo">Projects</a></h4>
+        </div>
+
+        <div class="panel-collapse collapse in panel-body" id="collapseTwo">
+            {% if page =="ap" %} {% partial "apcompsci/ap.htm" %} {% endif
+            %} {% if page =="1" %} {% partial "compsci1/compsci1.htm" %} {% endif
+            %} {% if page =="2" %} {% partial "compsci2/compsci2.htm" %} {% endif
+            %} {% if page =="3" %} {% content 'compsci3/table.htm' %} {% endif
+            %}
+        </div>
+    </div>
+</div>

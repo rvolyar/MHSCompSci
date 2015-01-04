@@ -1,0 +1,414 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0076)http://applecore.cs.williams.edu/~cs134/current/handouts/objectdraw-api.html -->
+<HTML>
+<!-- Mirrored from web.millburn.org/farrell/compsciII/Lecture%20Documents/Java%20Applets%20and%20Graphics/Objectdraw_Summary.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 18 Sep 2011 23:06:10 GMT -->
+<HEAD><TITLE>Objectdraw API Summary</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><!-- HTML file produced from file: quickreference.tex --
+ -- using Hyperlatex v 2.3.1 (c) Otfried Cheong--
+ -- on Emacs 20.3.1, Wed Feb 16 03:26:34 2000 --><!--This file created 10/5/00 3:56 PM by Claris Home Page version 3.0-->
+<META content="MSHTML 6.00.2715.400" name=GENERATOR><X-CLARIS-WINDOW RIGHT="538" 
+LEFT="8" BOTTOM="768" TOP="66"><X-CLARIS-TAGVIEW MODE="minimal"></HEAD>
+<BODY bgColor=#ffffff>
+<BLOCKQUOTE>
+  <H1>
+  <CENTER><FONT size=+1><B>Summary of Objectdraw 
+API</B></FONT></CENTER></H1></BLOCKQUOTE>
+<H2>WindowController</H2>
+<H4>Methods to Define within Classes that extend WindowController</H4>
+<P>
+<TABLE border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top><PRE>void begin ()</PRE></TD>
+    <TD>
+      <P>Initialize the program.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void onMouseClick(Location point)</PRE></TD>
+    <TD>
+      <P>Define actions to take when the mouse button is clicked.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void onMousePress(Location point)</PRE></TD>
+    <TD>
+      <P>Define actions to take when the mouse button is pressed.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void onMouseRelease(Location point)</PRE></TD>
+    <TD>
+      <P>Define actions to take when the mouse button is released.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void onMouseEnter(Location point)</PRE></TD>
+    <TD>
+      <P>Define actions to take when the mouse enters the window.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void onMouseExit(Location point)</PRE></TD>
+    <TD>
+      <P>Define actions to take when the mouse exits the window.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void onMouseDrag(Location point)</PRE></TD>
+    <TD>
+      <P>Define actions to take when the mouse is moved with the mouse button 
+      down.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void onMouseMove(Location point)</PRE></TD>
+    <TD>
+      <P>Define actions to take when the mouse is moved with the mouse button 
+      up.</P></TD></TR></TBODY></TABLE></P>
+<H4>Methods to Call within Classes that extend WindowController</H4>
+<P>
+<TABLE border=0>
+  <TBODY>
+  <TR>
+    <TD><PRE>Image getImage(String fileName)</PRE></TD>
+    <TD>
+      <P>Loads a gif or jpeg file</P></TD></TR>
+  <TR>
+    <TD><PRE>double getTime()</PRE></TD>
+    <TD>
+      <P>Returns the time in milliseconds.</P></TD></TR></TBODY></TABLE></P>
+<P>
+<HR>
+
+<P></P>
+<H2>ActiveObject</H2>
+<H4>Methods to Define within Classes that extend ActiveObject</H4>
+<P>
+<TABLE border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top><PRE>void run()</PRE></TD>
+    <TD>
+      <P>The active behavior of the object.</P></TD></TR></TBODY></TABLE></P>
+<H4>Methods to Call within Classes that extend ActiveObject</H4>
+<H4>
+<TABLE border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top><PRE>void start()</PRE></TD>
+    <TD>
+      <P>Call this method at the end of the constructor. It will result in your 
+      active object coming to life with its run method executing.</P></TD></TR>
+  <TR>
+    <TD vAlign=top><PRE>void pause(double interval)</PRE></TD>
+    <TD>
+      <P>Causes the active object to pause execution for interval 
+      milliseconds.</P></TD></TR>
+  <TR>
+    <TD><PRE>double getTime()</PRE></TD>
+    <TD>
+      <P>Returns the time in milliseconds.</P></TD></TR></TBODY></TABLE></H4>
+<P>
+<HR>
+
+<P></P>
+<H2>Drawable Objects</H2>
+<H4><A name=3></A>Constructors for Classes of Drawable Objects</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=268><PRE><TT>FramedRect(double&nbsp;x,&nbsp;
+           double y,&nbsp;
+           double width,
+           double&nbsp;height,
+           DrawingCanvas&nbsp;canvas);</TT><BR><TT>FramedRect(Location&nbsp;cornerLocation,&nbsp;
+           double width,&nbsp;
+           double height,&nbsp;
+           DrawingCanvas canvas);</TT><BR><TT>FramedRect(Location&nbsp;corner1Location,&nbsp;
+           Location corner2Location,&nbsp;
+           DrawingCanvas canvas);
+FilledRect(double&nbsp;x,&nbsp;
+           double y,&nbsp;
+           double width,
+           double&nbsp;height,
+           DrawingCanvas&nbsp;canvas&nbsp;);</TT><BR><TT>FilledRect(Location&nbsp;cornerLocation,&nbsp;
+           double width,&nbsp;
+           double height,&nbsp;
+           DrawingCanvas canvas);</TT><BR><TT>FilledRect(Location&nbsp;corner1Location,&nbsp;
+           Location corner2Location,&nbsp;
+           DrawingCanvas canvas);
+         </TT></PRE></TD>
+    <TD vAlign=top>
+      <P>The parameters to a rectangle or oval constructor describe the 
+      rectangle bounding the object to be drawn. You can either:</P>
+      <UL>
+        <LI>Specify the coordinates of the rectangle's upper left corner 
+        together with the width and height,&nbsp;or 
+        <LI>Specify the coordinates of two opposite corners. </LI></UL>
+      <P>You can fill these shapes or just frame their 
+  perimeters.</P></TD></TR></TBODY></TABLE></P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=268><PRE><TT>FramedOval(double&nbsp;x,&nbsp;
+           double y,&nbsp;
+           double width,
+           double&nbsp;height,
+           DrawingCanvas&nbsp;canvas);</TT><BR><TT>FramedOval(Location&nbsp;cornerLocation,&nbsp;
+           double width,&nbsp;
+           double height,&nbsp;
+           DrawingCanvas canvas);</TT><BR><TT>FramedOval(double&nbsp;x,&nbsp;
+           double y,&nbsp;
+           double width,
+           double&nbsp;height,
+           DrawingCanvas&nbsp;canvas);
+FilledOval(double&nbsp;x,&nbsp;
+           double y,&nbsp;
+           double width,
+           double&nbsp;height,
+           DrawingCanvas&nbsp;canvas);</TT><BR><TT>FilledOval(Location&nbsp;cornerLocation,&nbsp;
+           double width,&nbsp;
+           double height,&nbsp;
+           DrawingCanvas canvas);</TT><BR><TT>FilledOval(Location&nbsp;corner1Location,&nbsp;
+           Location corner2Location,&nbsp;
+           DrawingCanvas canvas);</TT></PRE></TD>
+    <TD vAlign=top>
+      <P></P></TD></TR></TBODY></TABLE></P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD width=268><PRE>VisibleImage(Image image, 
+              Location origin, 
+              DrawingCanvas c)
+VisibleImage(Image image, 
+              double x, 
+              double y, 
+              DrawingCanvas c)
+VisibleImage(Image image, 
+              Location origin, 
+              int width, 
+              int height, 
+              DrawingCanvas c)
+VisibleImage(Image image, 
+              double x, 
+              double y, 
+              int width, 
+              int height, 
+              DrawingCanvas c)</PRE></TD>
+    <TD vAlign=top>
+      <P>The parameters to a drawable image constructor require you to specify 
+      the upper left corner of the image, either using a Location object or a 
+      pair of values for x and y. You can also optionally resize the image by 
+      giving a width and height. If you do not specify a width and height, it 
+      will use the size that the Image itself has.</P></TD></TR></TBODY></TABLE></P>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=268><PRE><TT>Text(String text,&nbsp;
+     double x,&nbsp;
+     double y,&nbsp; 
+     DrawingCanvas canvas);</TT><BR><TT>Text(String text,&nbsp;
+     Location baseLocation, 
+     DrawingCanvas&nbsp;canvas);</TT></PRE>
+      <P></P></TD>
+    <TD vAlign=top>
+      <P>The coordinates specify the leftmost point of the text's 
+    baseline.</P></TD></TR></TBODY></TABLE></P>
+<H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=266><PRE><TT>Line(double&nbsp;startX,&nbsp;
+     double startY,&nbsp; 
+     double endX,&nbsp;
+     double endY,
+     DrawingCanvas&nbsp;canvas);</TT><BR><TT>Line(Location&nbsp;startLocation, 
+     Location&nbsp;endLocation,&nbsp;
+     DrawingCanvas canvas);</TT><BR></PRE></TD>
+    <TD vAlign=top>
+      <P>A line is described by giving its end 
+points.</P></TD></TR></TBODY></TABLE></H4>
+<H4><A name=4></A>Methods for All Drawable Classes</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=307 height=52>
+      <P><TT>boolean contains(Location someLocation ) </TT></P></TD>
+    <TD vAlign=top height=52>
+      <P>If a line, determine if the line contains a point; if 2-D, determine if 
+      the object's bounding box contains a point.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=307 height=20>
+      <P><TT>Color getColor()<BR>void setColor (Color&nbsp;someColor&nbsp;); 
+      </TT></P></TD>
+    <TD vAlign=top height=20>
+      <P>Access/change an object's color.</P></TD></TR></TBODY></TABLE>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=306 height=28>
+      <P><TT>void move(double xOffset, double&nbsp;yOffset); </TT></P></TD>
+    <TD vAlign=top height=28>
+      <P>Move an object relative to its current position.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=306><PRE><TT>void moveTo(double&nbsp;x,&nbsp;double y);
+void moveTo(Location&nbsp;someLocation); </TT></PRE>
+      <P></P></TD>
+    <TD vAlign=top>
+      <P>Move an object to point specified by coordinates.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=306><PRE><TT>void hide(); </TT><BR><TT>void show();<BR>boolean isHidden();</TT></PRE></TD>
+    <TD vAlign=top>
+      <P>Make an object invisible or visible on the display. Check if it is 
+      visible.</P></TD></TR>
+  <TR>
+    <TD width=306><PRE>void removeFromCanvas();</PRE></TD>
+    <TD>
+      <P>Permanently remove an object from the canvas.</P></TD></TR>
+  <TR>
+    <TD width=306><PRE>void addToCanvas (DrawingCanvas c);</PRE></TD>
+    <TD>
+      <P>Add the object to a canvas. This removes it from the current canvas 
+      because it can only be on one canvas at a time.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=306>
+      <P><TT>void sendForward(); </TT><BR><TT>void sendToFront(); 
+      </TT><BR><TT>void sendBackward(); </TT><BR><TT>void sendToBack(); 
+      </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Alter the stacking order that controls how overlapping objects 
+      appear.</P></TD></TR></TBODY></TABLE></P>
+<H4><A name=6></A>Methods for Lines only</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=282>
+      <P><TT>Location getStart() </TT><BR><TT>Location getEnd() </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Access the coordinates of the starting or ending point of the 
+    line.</P></TD></TR></TBODY></TABLE></P>
+<H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=283><PRE><TT>void setStart(Location&nbsp;someLocation&nbsp;); </TT><BR><TT>void setEnd(Location&nbsp;someLocation&nbsp;); 
+void setEndPoints(Location startLocation,&nbsp; 
+                  Location endLocation); 
+void setEndPoints(double&nbsp;startX, 
+                  double&nbsp;startY, 
+                  double&nbsp;endX, 
+                  double&nbsp;endY); </TT><BR></PRE></TD>
+    <TD vAlign=top>
+      <P>Change either or both of a line's end points.</P></TD></TR></TBODY></TABLE><A 
+name=5></A>Methods for Rectangles, Ovals, VisibleImage, and Text</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=324>
+      <P><TT>double getX() </TT><BR><TT>double getY() </TT><BR><TT>Location 
+      getLocation() </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Access one or both coordinates of the upper left corner of an object's 
+      bounding rectangle.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=324>
+      <P><TT>double getWidth() </TT><BR><TT>double getHeight() </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Access the dimensions of an object's bounding rectangle.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=324>
+      <P><TT>boolean overlaps (Drawable2DInterface item)</TT></P></TD>
+    <TD>
+      <P>Returns true if the bounding rectangle of the item passed in overlaps 
+      with the bounding rectangle of the current 
+object.</P></TD></TR></TBODY></TABLE></P>
+<H4>Methods for Rectangles, Ovals, and VisibleImages only</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD width=324>
+      <P><TT>void setWidth(double&nbsp;width&nbsp;); </TT><BR><TT>void 
+      setHeight(double&nbsp;height&nbsp;);</TT></P></TD>
+    <TD>
+      <P>Change the width or height of a shape.</P></TD></TR></TBODY></TABLE></P>
+<H4><A name=10></A>Methods for Text Objects only</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=262 height=16>
+      <P><TT>void setText(String text); </TT></P></TD>
+    <TD vAlign=top height=16>
+      <P>Change the characters displayed.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=262>
+      <P><TT>void setFontSize(int&nbsp;pointSize&nbsp;); </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Change the font size used.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=262>
+      <P><TT>void setBold(); </TT><BR><TT>void setItalic(); </TT><BR><TT>void 
+      setPlain(); </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Change the style in which text is displayed.</P></TD></TR>
+  <TR>
+    <TD vAlign=top width=262 height=29><PRE><TT>void setFont (Font&nbsp;someFont) <BR></TT>void setFont (String fontName)</PRE></TD>
+    <TD vAlign=top height=29>
+      <P>Change the font used.</P></TD></TR></TBODY></TABLE></P>
+<H4>
+<HR>
+</H4>
+<H2>Auxiliary Classes</H2>
+<H4><A name=1></A>Constructors for Auxilliary Classes</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD><PRE><TT>Color(int redness,&nbsp;
+      int greenness,&nbsp;
+      int blueness); </TT></PRE></TD>
+    <TD vAlign=top>
+      <P>Mix a new color. Parameter values are numbers between 0 and 
+  255.</P></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <P><TT>Location(double x, double y); </TT></P></TD>
+    <TD vAlign=top>
+      <P>Build a coordinate pair object for the point (x,y).</P></TD></TR>
+  <TR>
+    <TD><PRE>RandomIntGenerator(int min, 
+                   int max)</PRE></TD>
+    <TD>
+      <P>Builds a random number generator that returns numbers between min and 
+      max, inclusive.</P></TD></TR></TBODY></TABLE></P>
+<H4><A name=2></A>Methods for Color Class</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <P><TT>int getRed() </TT><BR><TT>int getGreen() </TT><BR><TT>int getBlue() 
+      </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Access any of the color values associated with a 
+  Color.</P></TD></TR></TBODY></TABLE></P>
+<H4><A name=LocationAccessors></A>Methods for Location Class</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <P><TT>double getX() </TT><BR><TT>double getY() </TT><BR></P></TD>
+    <TD vAlign=top>
+      <P>Access either of the elements of a coordinate 
+pair.</P></TD></TR></TBODY></TABLE></P>
+<H4><A name=LocationAccessors></A>Methods for RandomIntGenerator Class</H4>
+<P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD vAlign=top height=18>
+      <P><TT>int nextValue ()</TT></P></TD>
+    <TD vAlign=top height=18>
+      <P>Returns the next random number.</P></TD></TR></TBODY></TABLE></P>
+<P>
+<HR>
+
+<P></P></BODY>
+<!-- Mirrored from web.millburn.org/farrell/compsciII/Lecture%20Documents/Java%20Applets%20and%20Graphics/Objectdraw_Summary.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 18 Sep 2011 23:06:10 GMT -->
+</HTML>

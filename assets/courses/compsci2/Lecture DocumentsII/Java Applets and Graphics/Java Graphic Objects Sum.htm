@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0076)http://applecore.cs.williams.edu/~cs134/current/handouts/quickreference.html -->
+<HTML>
+<!-- Mirrored from web.millburn.org/farrell/compsciII/Lecture%20Documents/Java%20Applets%20and%20Graphics/Java%20Graphic%20Objects%20Sum.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 18 Sep 2011 23:06:10 GMT -->
+<HEAD><TITLE>Java Graphics Quick Reference</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><!-- XML file produced from file: quickreference.tex --
+ -- using Hyperlatex v 2.5 (c) Otfried Cheong--
+ -- on Emacs 20.7.1, Thu Jan 31 17:42:13 2002 -->
+<META content="MSHTML 6.00.2715.400" name=GENERATOR></HEAD>
+<BODY>
+<DIV align=center><B><FONT size=+1>Quick Summary of Graphic Objects and 
+Methods</FONT></B> </DIV>
+<H4><A name=1>Constructors for Auxilliary Classes</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left><TT>new Color(redness,&nbsp;greenness,&nbsp;blueness); 
+    </TT></TD>
+    <TD align=left>Mix a new color. Parameter values are numbers between 0 and 
+      255. </TD></TR>
+  <TR>
+    <TD align=left><TT>new Location(x,y); </TT></TD>
+    <TD align=left>Build a coordinate pair object for the point (x,y). 
+  </TD></TR></TBODY></TABLE>
+<H4><A name=2>Accessor Methods for Auxilliary Classes</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left><TT>someColor.getRed() </TT><BR><TT>someColor.getGreen() 
+      </TT><BR><TT>someColor.getBlue() </TT><BR></TD>
+    <TD align=left>Access any of the color values associated with a Color. 
+  </TD></TR>
+  <TR>
+    <TD align=left><TT>someLocation.getX() </TT><BR><TT>someLocation.getY() 
+      </TT><BR></TD>
+    <TD align=left>Access either of the elements of a coordinate pair. </TD></TR>
+  <TR>
+    <TD align=left><TT>someLocation.distanceTo(&nbsp;anotherLocation&nbsp;) 
+      </TT><BR></TD>
+    <TD align=left>Determine the distance between two points. 
+</TD></TR></TBODY></TABLE>
+<H4><A name=3>Constructors for Graphic Objects</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <P><TT>new 
+      FramedRect(&nbsp;x,&nbsp;y,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FilledRect(&nbsp;x,&nbsp;y,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FramedOval(&nbsp;x,&nbsp;y,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FilledOval(&nbsp;x,&nbsp;y,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      <P><TT>new 
+      FramedRect(&nbsp;corner1Location,&nbsp;corner2Location,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FilledRect(&nbsp;corner1Location,&nbsp;corner2Location,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FramedOval(&nbsp;corner1Location,&nbsp;corner2Location,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FilledOval(&nbsp;corner1Location,&nbsp;corner2Location,&nbsp;canvas);</TT> 
+
+      <P><TT>new 
+      FramedRect(&nbsp;cornerLocation,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FilledRect(&nbsp;cornerLocation,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FramedOval(&nbsp;cornerLocation,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      <BR><TT>new 
+      FilledOval(&nbsp;cornerLocation,&nbsp;width,&nbsp;height,&nbsp;canvas);</TT> 
+      </P></TD>
+    <TD align=left>The parameters to a rectangle or oval constructor describe 
+      the rectangle bounding the object to be drawn. You can either: 
+      <UL>
+        <LI>Specify the coordinates of the rectangle's upper left corner 
+        together with the width and height,&nbsp;or 
+        <LI>Specify the coordinates of two opposite corners. </LI></UL>
+      <P>You can fill these shapes or just frame their perimeters. </P></TD></TR>
+  <TR>
+    <TD align=left><TT>new 
+      Line(&nbsp;startX,&nbsp;startY,&nbsp;endX,&nbsp;endY,&nbsp;canvas);</TT> 
+      <BR><TT>new Line(&nbsp;startLocation,&nbsp;endLocation,&nbsp;canvas);</TT> 
+      <BR></TD>
+    <TD align=left>A line is described by giving its end points. </TD></TR>
+  <TR>
+    <TD align=left><TT>new Text(&nbsp;"some 
+      message",&nbsp;x,&nbsp;y,&nbsp;canvas);</TT> <BR><TT>new Text(&nbsp;"some 
+      message",&nbsp;baseLocation,&nbsp;canvas);</TT> <BR></TD>
+    <TD align=left>The coordinates specify the leftmost point of the text's 
+      baseline. </TD></TR></TBODY></TABLE>
+<H4><A name=4>Methods Available for All Graphic Objects</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <P><TT>someObject.move(&nbsp;xOffset,&nbsp;yOffset); </TT><BR></P></TD>
+    <TD align=left>Move an object relative to its current position. </TD></TR>
+  <TR>
+    <TD align=left><TT>someObject.moveTo(&nbsp;x,&nbsp;y); 
+      </TT><BR><TT>someObject.moveTo(&nbsp;someLocation); </TT><BR></TD>
+    <TD align=left>Move an object to point specified by coordinates. </TD></TR>
+  <TR>
+    <TD align=left><TT>someObject.contains(&nbsp;someLocation); </TT><BR></TD>
+    <TD align=left>Determine if an object's bounding box contains a point. 
+  </TD></TR>
+  <TR>
+    <TD align=left><TT>someObject.hide(); </TT><BR><TT>someObject.show(); 
+      </TT><BR></TD>
+    <TD align=left>Make an object invisible or visible on the display. </TD></TR>
+  <TR>
+    <TD align=left><TT>someObject.removeFromCanvas(); </TT><BR></TD>
+    <TD align=left>Delete object from its canvas. </TD></TR>
+  <TR>
+    <TD align=left><TT>someObject.sendForward(); 
+      </TT><BR><TT>someObject.sendToFront(); 
+      </TT><BR><TT>someObject.sendBackward(); 
+      </TT><BR><TT>someObject.sendToBack(); </TT><BR></TD>
+    <TD align=left>Alter the stacking order that controls how overlapping 
+      objects appear. </TD></TR>
+  <TR>
+    <TD align=left><TT>someObject.getColor(); 
+      </TT><BR><TT>someObject.setColor(&nbsp;someColor&nbsp;); </TT></TD>
+    <TD align=left>Access or change an object's color. </TD></TR></TBODY></TABLE>
+<H4><A name=5>Methods Available for All 2-D Graphic Objects (including Text, but 
+not Line)</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <P><TT>someObject.getX(); </TT><BR><TT>someObject.getY(); 
+      </TT><BR><TT>someObject.getLocation(); </TT><BR></P></TD>
+    <TD align=left>Access coordinates of the upper left corner of an object's 
+      bounding rectangle. </TD></TR>
+  <TR>
+    <TD align=left><TT>someObject.getWidth(); 
+      </TT><BR><TT>someObject.getHeight(); </TT></TD>
+    <TD align=left>Access the dimensions of an object's bounding rectangle. 
+  </TD></TR></TBODY></TABLE>
+<H4><A name=6>Methods Available for Resizable 2-D Graphic Objects (not 
+Text)</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <P><TT>someObject.setWidth(&nbsp;newWidth); 
+      </TT><BR><TT>someObject.setheight(&nbsp;newHt); </TT><BR></P></TD>
+    <TD align=left>Change the dimensions of an object's bounding rectangle. 
+  </TD></TR></TBODY></TABLE>
+<H4><A name=7>Mutator Methods for Lines</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left>
+      <P><TT>someLine.setStart(&nbsp;someLocation&nbsp;); 
+      </TT><BR><TT>someLine.setEnd(&nbsp;someLocation&nbsp;); 
+      </TT><BR><TT>someLine.setEndPoints(&nbsp;startLocation,&nbsp;endLocation); 
+      </TT><BR></P></TD>
+    <TD align=left>Change either or both of a line's end points. 
+</TD></TR></TBODY></TABLE>
+<H4><A name=8>Mutator Methods for Text Objects</A></H4>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=left><TT>someText.setText(&nbsp;"new message"&nbsp;); 
+    </TT><BR></TD>
+    <TD align=left>Change the characters displayed. </TD></TR>
+  <TR>
+    <TD align=left><TT>someText.setFontSize(&nbsp;pointSize&nbsp;); 
+    </TT><BR></TD>
+    <TD align=left>Change the font size used. </TD></TR>
+  <TR>
+    <TD align=left><TT>someText.setBold(); </TT><BR><TT>someText.setItalic(); 
+      </TT><BR><TT>someText.setPlain(); </TT><BR></TD>
+    <TD align=left>Change the style in which text is displayed. </TD></TR>
+  <TR>
+    <TD align=left><TT>someText.setFont(&nbsp;someFont&nbsp;) </TT><BR></TD>
+    <TD align=left>Change the font used. </TD></TR></TBODY></TABLE>
+<HR>
+</BODY>
+<!-- Mirrored from web.millburn.org/farrell/compsciII/Lecture%20Documents/Java%20Applets%20and%20Graphics/Java%20Graphic%20Objects%20Sum.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 18 Sep 2011 23:06:10 GMT -->
+</HTML>

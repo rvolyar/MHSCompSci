@@ -1,0 +1,23 @@
+description = "Blue strip with current page info"
+==
+<div class="header-bg">  
+        <div class="container">    
+            <div class="page-header">
+                
+                <!---->
+                <h1 class="header-text">
+                  {{ this.page.meta_title }}
+                </h1>
+                <p class="lead header-text-darker">
+                  {{ this.page.meta_description }} 
+                </p>
+            </div>
+        </div>
+    
+    </div>
+    
+<div class="breadcrumb bottom-margin">
+                    <div class="container">
+                        {% component 'breadcrumbs' %}
+                    </div>
+                </div>

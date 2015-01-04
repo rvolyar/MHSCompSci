@@ -1,0 +1,51 @@
+description = "Homepage period partial"
+==
+<!-- SETS PERIOD TIMES -->
+
+{%set now= "now"|date("H:i", "America/New_York") %}
+
+{%set p1 =['07:45','08:28','1']%}
+{%set p2 =['08:32','09:15','2']%}
+{%set p3 =['09:27','10:10','3']%}
+{%set p4 =['10:14','10:57','4']%}
+{%set p6 =['12:15','12:58','2']%}
+{%set p7 =['13:02','13:45','3']%}
+{%set p8 =['13:49','14:32','2']%}
+{%set p9 =['17:49','19:32','2']%}
+<!-- ASIGNS PERIOD TIMES TO PERIOD VALUE-->
+
+{% if (now) > p1[0] and (now) < p1[1] %}
+    {%set period='1'%}
+    {%set class = p1[2] %}
+    
+{% elseif (now) > p2[0] and (now) < p2[1] %}
+    {%set period='2'%}
+    {%set class = p2[2] %}
+    
+{% elseif (now) > p3[0] and (now) < p3[1] %}
+    {%set period='3'%}
+    {%set class = p3[2] %}
+    
+{% elseif (now) > p4[0] and (now) < p4[1] %}
+    {%set period='4'%}
+    {%set class = p4[2] %}
+    
+{% elseif (now) > p6[0] and (now) < p6[1] %}
+    {%set period='6'%}
+    {%set class = p6[2] %}
+    
+{% elseif (now) > p7[0] and (now) < p7[1] %}
+    {%set period='7'%}
+    {%set class = p7[2] %}
+    
+{% elseif (now) > p8[0] and (now) < p8[1] %}
+    {%set period='8'%}
+    {%set class = p8[2] %}
+    
+{% else %}
+   
+{% endif %}
+
+<!-- HOMEPAGELINKS PARIAL -->
+
+{% partial 'homepagelinks.htm' currentperiod=period currentclass=class %}

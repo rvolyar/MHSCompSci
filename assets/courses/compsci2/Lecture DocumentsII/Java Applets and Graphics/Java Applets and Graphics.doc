@@ -1,0 +1,332 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f37\froman\fcharset238\fprq2 Times New Roman CE;}{\f38\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f40\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f41\froman\fcharset162\fprq2 Times New Roman Tur;}{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f47\fswiss\fcharset238\fprq2 Arial CE;}{\f48\fswiss\fcharset204\fprq2 Arial Cyr;}{\f50\fswiss\fcharset161\fprq2 Arial Greek;}{\f51\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f52\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f53\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f54\fswiss\fcharset186\fprq2 Arial Baltic;}{\f55\fswiss\fcharset163\fprq2 Arial (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{
+\s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \fi-270\li270\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin270\itap0 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 2;}{\s3\ql \fi-225\li585\ri0\nowidctlpar\faauto\outlinelevel2\rin0\lin585\itap0 \f1\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 3;}
+{\s4\ql \fi-180\li900\ri0\nowidctlpar\faauto\outlinelevel3\rin0\lin900\itap0 \f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 4;}{\s5\ql \fi-180\li1260\ri0\nowidctlpar\faauto\outlinelevel4\rin0\lin1260\itap0 
+\f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 5;}{\s6\ql \fi-180\li1620\ri0\nowidctlpar\faauto\outlinelevel5\rin0\lin1620\itap0 \f1\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 
+heading 6;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid574490808
+\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01*;}{\levelnumbers;}}{\listname ;}\listid-2}}{\*\listoverridetable{\listoverride\listid-2\listoverridecount1{\lfolevel
+\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent0{\leveltext\'01\u-3922 ?;}{\levelnumbers;}\f10\fs26\fbias0 }}\ls1}{\listoverride\listid-2\listoverridecount1{\lfolevel
+\listoverrideformat{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelold\levelspace0\levelindent0{\leveltext\'01\u-3922 ?;}{\levelnumbers;}\f10\fs22\fbias0 }}\ls2}}{\*\rsidtbl \rsid3437686\rsid12782384}{\*\generator Mic
+rosoft Word 11.0.6359;}{\info{\title Java Applets and Graphics}{\author Millburn BOE}{\operator Millburn BOE}{\creatim\yr2006\mo8\dy21\hr10\min1}{\revtim\yr2006\mo8\dy21\hr10\min1}{\version2}{\edmins4}{\nofpages11}{\nofwords1531}{\nofchars8728}
+{\*\company  }{\nofcharsws10239}{\vern24703}}\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale100\nolnhtadjtbl\rsidroot12782384 \fet0\sectd \linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain 
+\s1\qc \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs72\insrsid12782384 Java Applets and Graphics}{\fs72\insrsid12782384 
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid12782384 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384\charrsid12782384 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Graphics \endash  An Introduction
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 In order to show you Java graphics, we will walk you through the basics of making a project using the AWT package
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}AWT is a group of classes that work together to create programs that the user can interact with graphically
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Graphics
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 AWT creates a GUI (graphical user interface) allowing you to avoid using the console which can only display a limited range of data
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}We will also be basing our code on events \endash  things that the user does to move the program along such as clicking a button or pressing a key
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Applets
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Our code will be based upon applets, which are similar to applications, but are designed to operate off of an html enabled web browser
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Consequently, they are driven by a short html code sequence, rather than an SPVM
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Fortunately, most of this is abstracted from the user, so the coding is very similar to that of an application
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par 
+\par 
+\par 
+\par 
+\par }{\insrsid12782384 Lets Get Started!
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 Open up NetBeans\'99
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\fs28\insrsid12782384 Click New Project ->new as you usually do
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\fs28\insrsid12782384 Select \'93General\'94 AND \'93Java Class Library\'94
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\fs28\insrsid12782384 Fill in the same boxes you would with an application, be sure to name the applet and select an appropriate location (folder)
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Creating an AWT Applet
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 You need to create a new java file in which to build your applet.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Right-click the project \'93Source Package\'94 Folder
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Select \'93Java Classes\'94 and Applet or JApplet
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Name your Applet and associate it with the Source Packages
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Finish
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Creating an AWT Applet
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 You COULD use NetBeans GUI capability to generate a frame that behaves much like a VB form
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}With this Frame you can add objects like you did in VB
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}However, we are leaving out this topic for now, However, you can utilize ANY capability of NetBeans (on your own)
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\insrsid12782384 The Code
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 Take note of the absence of an SPVM
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par }{\fs28\cf2\insrsid12782384\charrsid12782384 public class MyApplet extends java.applet.Applet 
+\par \{
+\par     
+\par     /** Initialization method that will be called after the applet is loaded
+\par      *  into the browser.
+\par      */
+\par     public void init() \{
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 The Init() is where we put the initial behaviors we want to execute when the applet \'93loads\'94
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Remember Applets execute from HTML, to hae the HTML generated, RUN  the java applet
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 If you want to see the html code that our applet will run upon, look in the projects \'93Build\'94 Folder in Windows
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 \f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\fs20\cf2\insrsid12782384\charrsid12782384 <HTML>
+\par <HEAD>
+\par    <TITLE>Applet HTML Page</TITLE>
+\par </HEAD>
+\par <BODY>
+\par 
+\par 
+\par <H3><HR WIDTH="100%">Applet HTML Page<HR WIDTH="100%"></H3>
+\par 
+\par <P>
+\par <APPLET codebase="classes" code="MyApplet.class" width=350 height=200></APPLET>
+\par </P>
+\par 
+\par <HR WIDTH="100%"><FONT SIZE=-1><I>Generated by NetBeans IDE</I></FONT>
+\par </BODY>
+\par </HTML>
+\par }{\b\fs20\insrsid12782384 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid12782384 At This Point, you could EXECUTE your appley simply by clicking on the HTML Document
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\b\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\b\insrsid12782384 It will invoke Internet Explorer and IE will generate your applet
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par 
+\par }{\insrsid12782384 The Java File
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Find the initComponents() method
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}That is where the code creating objects goes
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}
+We will code the creation of objects manually, but you can use Netbeans to graphically build your GUI (again, we will discuss this at a later time, however, feel free to experiment now)
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs40\insrsid12782384 
+\par }{\fs40\insrsid12782384 Hello World
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Lets generate our first applet that displays the infamous \'93Hello World\'94
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Create a paint method as follows:
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par }{\cf2\insrsid12782384\charrsid12782384 public void paint(Graphics g)
+\par     \{
+\par      g.drawString("Hello World", 50, 25);   
+\par     \}
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Make sure we import the required java classes, so include these at the top of the program:
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par }{\cf2\insrsid12782384\charrsid12782384 import java.applet.Applet;
+\par import java.awt.Graphics;
+\par import java.awt.*;
+\par import java.awt.event.*;
+\par }{\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Now, run your applet by r-clicking on the java file and selecting RUN
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Now, we will extend out applet to:
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Add a button and a label
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Set properties of each
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Allow button events to be captured and processed
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Use \'93interfaces\'94 to trap KEY EVENTS
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Use the class handout or the completed applet online to add a button and a label to your applet
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Remember to run your applet by r-click on the java file and selecting RUN
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Sample output \'85
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Sample output \'85
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Classes
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Recognize that all of the things you add to the applet are objects, and can be viewed in JavaDocs
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Consequently they all have methods and attributes
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Try looking up Button in JavaDocs and find its methods and attributes
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 More on Classes
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 Right after the class declaration and before the constructor, you should find the button declaration:
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\cf2\insrsid12782384\charrsid12782384 \tab \tab button1 = new Button()
+\par }{\fs28\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\fs28\insrsid12782384 Notice the new, indicating the creation of an object
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par \tab \tab 
+\par 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Still More on Classes
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Now go down to the init () method
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Look at the various \'93set\'94 methods called on the button
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}These methods set the values for the various attributes of the button object
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Finally, look at the \'93add\'94 call on the button, which places the button in the applet
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Mess Around
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Try changing the various properties of the button
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Then create a label, a textbox, and whatever else you want 
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\insrsid12782384 Try changing the properties of these objects, and see what you can do
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Now For Some User Input
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Graphics allow the user to control various aspects of the program
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}User inputs such as pressing a button or hitting a key are called ActionEvents
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}You can write code to make your project react to these ActionEvents and do virtually anything
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 ActionListener
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 If you want a graphics component to respond to some user input, such as the clicking of a button, an \'93ActionEventListener\'94 must be added to the component.  
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}This listener does what it sounds like\emdash it \'93listens\'94 for the activation of a component
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}The listener in turn activates an outside method that includes the actual code that is executed when a component is activated (button is clicked, etc)
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Interpretation
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 In the previous slide, you can see the ActionListeners for the button.  As you might notice, 
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}On the bottom are the \'93ActionPerformed methods.  In them goes the code describing what the buttons should do when they are clicked
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Additional Events
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 
+Of course, you might also need to handle additional events, such as moving the mouse over a component, or clicking and dragging.  Thus, there are numerous other types of events that all operate in a similar manner
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Take a look at JAVADOCS to see what additional events exist in Java
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}For your purposes, ActionEvents are sufficient for the time being, as they are the simplest and are automatically configured for the default actions of every component.
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Experimentation
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Try fooling around with ActionListeners and \'93ActionPerformed\'94 methods to get a better feel for how they operate.
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}As a short exercise, try making an applet with a button and a label, where the color of the label changes when you click the button. 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Control Arrays
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 In more complex Applets, the amount of components increases to the point where it becomes inefficient to code for the individual ones if they operate in a similar manner.
+
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}If you have ten buttons that do similar things, it might be convenient to create an array of buttons, to hold them in an organized way.
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Tic-Tac-Toe
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 Your first real project is to complete a Tic-Tac-Toe program using graphics as well as a control array.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Naturally, because you would need nine buttons, one for each square in the 3x3 grid, a control array would be perfect for this project.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}This would reduce some of the redundant code, as all of the ActionEvent handling would occur in the same ActionPerformed method!
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}So instead of nine ActionPerformed methods, we only need one.
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Creating the Control Array
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 You would use a for loop to instantiate all of the buttons
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Remember\emdash no \'93new,\'94 no new object!
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Take a look at the sample code.
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Using the control array
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 
+When instantiating the control array, it is useful to set the ActionListeners in the loop, but make sure that they point to the same ActionPerformed method, such as boardActionPerformed where board is a 3x3 control array of buttons.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}In the ActionPerformed, use the getSource() method from the ActionEvent class, which returns the actual button that has been clicked. 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Using the control array
+\par }\pard\plain \s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0\pararsid12782384 \f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 For example,
+\par }\pard \s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0\pararsid12782384 {\fs28\cf2\insrsid12782384\charrsid12782384 public void boardActionPerformed(ActionEvent e)
+\par }\pard \s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0\pararsid12782384 {\fs28\cf2\insrsid12782384\charrsid12782384 \tab \{
+\par }\pard \s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0\pararsid12782384 {\fs28\cf2\insrsid12782384\charrsid12782384 \tab \tab Button b = ((Button) e.getSource());
+\par }\pard \s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0\pararsid12782384 {\fs28\cf2\insrsid12782384\charrsid12782384                //more code follows
+\par }\pard \s2\ql \li0\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin0\itap0\pararsid12782384 {\fs28\cf2\insrsid12782384\charrsid12782384       \}
+\par }{\fs28\insrsid12782384 
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 {
+\fs28\insrsid12782384 That will do the trick.
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel1\rin0\lin270\itap0 {\insrsid12782384 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Swing
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 In addition to the awt hierarchy of classes used for graphics, there is another hierarchy, called swing.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Swing is built upon awt, and it provides additional features but can be harder to use
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Feel free to experiment with swing and look at the documentation for the swing classes in JAVADOCS
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}You can tell the difference between awt and swing very easily\emdash swing class names all have the letter \lquote J\rquote  at the beginning
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}For example, JButton and JFrame are in swing, whereas Button and Frame are in awt.
+\par }\pard \s2\ql \fi-270\li270\ri0\nowidctlpar\faauto\outlinelevel1\rin0\lin270\itap0 {\fs28\insrsid12782384 
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Vectors
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 You can also have JAVA draw shapes and lines on the screen through the use of vectors
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Java can make them move around with a Thread
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Threads basically allow for the motion of time in a project
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}A BufferedReader allows for the smooth motion of time via a thread
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Let\rquote s take a look at a project that uses Vectors to better understand how they operate
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\insrsid12782384 Stealth Project \line (Created by Alex Carpenter)
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 This project uses several different .java files, all of which work together to create the project
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Open it up, and take a look at the main stealth file.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}As you might realize, it has a variety of objects, and Event Listeners (sound familiar?)
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}The paint method does what it sounds like \endash  it paints the screen with the component objects
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Calling .repaint() invokes the paint method again
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Project #2 \endash  Change Stealth
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 Increase the functionality of the Stealth project
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Change the project so that the small semicircle will move based on the arrow keys on the keyboard, not the mouse.
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}You will need to use keyListeners and keyEvents (look them up in JAVADOCS)
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}Most of what is initially there can be reused \endash  you don\rquote t need to reinvent what already works
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par }{\insrsid12782384 Project #3
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls2\pnrnot0\pnf10\pnfs22 {\pntxtb \'ae}}\faauto\ls2\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\fs28\insrsid12782384 Dice Rolling!
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}You must make a project that simulates a dice rolling game, where 2 dice are displayed graphically.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}It must involve 2 players, who alternate turns.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}There must be text fields at the beginning, where the 2 players can write their names
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}There must be a \'93roll\'94 button, so the players can roll the 2 dice
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}The cumulative scores (sum of the dice rolls) must appear near the players\rquote  names.
+\par {\pntext\pard\plain\s2 \f10\fs22 \loch\af10\dbch\af0\hich\f10 \'ae\tab}The first player to reach 50 wins, and the program must keep track of the wins
+\par }\pard\plain \s1\ql \li0\ri0\nowidctlpar\faauto\outlinelevel0\rin0\lin0\itap0 \f1\fs44\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 
+\par 
+\par }{\insrsid12782384 The End\'85Or is it?
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}}\pard\plain \s2\ql \fi-270\li270\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls1\pnrnot0\pnf10\pnfs26 {\pntxtb \'ae}}\faauto\ls1\outlinelevel1\rin0\lin270\itap0\pararsid12782384 
+\f1\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid12782384 There is much more to Graphics in JAVA than what is described in this presentation
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}We have given you the basics, but there is much more to graphics in JAVA than meets the eye
+\par {\pntext\pard\plain\s2 \f10\fs26 \loch\af10\dbch\af0\hich\f10 \'ae\tab}It is up to you to decide how much Graphics you want to learn!
+\par }}

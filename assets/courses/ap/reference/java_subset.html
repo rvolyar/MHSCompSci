@@ -1,0 +1,735 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+<html>
+
+
+<!-- Mirrored from web.millburn.org/farrell/APCompSci/AdminInfo/AP_Student_Ref_Material/java_subset.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 19 Sep 2011 00:25:49 GMT -->
+<head>
+<link rel="stylesheet" type="text/css" href="../../../../ap/rsc/ap.html">
+<link rel="stylesheet" type="text/css" href="../../../../../www.collegeboard.com/main.css">
+<title>AP Computer Science - Java Subset</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<!--webbot bot="Include" U-Include="../_private/ap_head_generic.htm" TAG="BODY" startspan -->
+<script language="JavaScript" src="../../../../images/toplev/topnav.html"></script>
+<script language="JavaScript"><!--
+//array to write today's date
+	monName = new Array ("January", "February", "March", "April", "May", "June", "July", 
+						 "August", "September", "October", "November", "December")
+	now = new Date
+	
+//compensate for y2k in netscape
+function yearName(theYear) {
+var theYear;
+if (now.getYear() < 1000) {theYear = now.getYear() + 1900;}
+else {theYear = now.getYear();}
+return theYear;
+}
+// -->
+		</script>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td bgcolor="#006699"><img src="../../../../images/toplev/shim.html" alt=" " width="10" height="1"></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" align="right">
+  <tr>
+    <td><a href="http://web.millburn.org/html/register000.html" onmouseover="imgOn('navreg')" onmouseout="imgOff('navreg')"><img name="navreg" src="../../../../images/toplev/navreg.html" border="0" alt="register" width="74" height="19"></a></td>
+    <td><a href="http://cbweb4p.collegeboard.org/tcb/store.html" onmouseover="imgOn('navshop')" onmouseout="imgOff('navshop')"><img name="navshop" src="../../../../images/toplev/navshop.html" border="0" alt="shop" width="40" height="19"></a></td>
+    <td><a href="http://web.millburn.org/html/search000.html" onmouseover="imgOn('navsrch')" onmouseout="imgOff('navsrch')"><img name="navsrch" src="../../../../images/toplev/navsrch.html" border="0" alt="search" width="51" height="19"></a></td>
+    <td><a href="http://web.millburn.org/html/help000.html" onmouseover="imgOn('navhelp')" onmouseout="imgOff('navhelp')"><img name="navhelp" src="../../../../images/toplev/navhelp.html" border="0" alt="help" width="40" height="19"></a></td>
+    <td><img src="../../../../images/toplev/shim.html" width="20" height="20" alt=" "></td>
+  </tr>
+  <tr>
+    <td colspan="4" align="right"><a href="http://web.millburn.org/ataglanc/html/index000.html"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><script language="JavaScript"><!--
+document.write(monName[now.getMonth()] + " " + now.getDate() + ", " + yearName() + "<br>");
+// -->
+					</script>
+    </font></a></td>
+    <td><img src="../../../../images/toplev/shim.html" width="20" height="20" alt=" "></td>
+  </tr>
+  <tr>
+    <td colspan="4" align="right"></td>
+    <td><img src="../../../../images/toplev/shim.html" width="20" height="20" alt=" "></td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="http://web.millburn.org/index.html"><img src="../../../../images/toplev/tcbsm.html" border="0" alt="The College Board logo" width="102" height="44"></a><br>
+    <img src="../../../../ap/images/apname.html" border="0" alt="Advanced Placement Program (R)" WIDTH="314" HEIGHT="41"></td>
+  </tr>
+</table>
+<!--webbot bot="Include" endspan i-checksum="39311" -->
+
+
+<blockquote>
+  <h2><br>
+  The AP Java Subset</h2>
+  <font color="#000000"><p>The AP Java subset is intended to outline the features of Java
+  that may appear on<i> </i>AP Computer Science Examinations. The AP Java subset is NOT
+  intended as an overall prescription for computer science courses &#151; the subset itself
+  will need to be supplemented in order to cover a typical introductory curriculum. For
+  example, I/O is essential to programming and can be done in many different ways. Because
+  of this, specific I/O features are not tested on the AP Computer Science Exam.</font> </p>
+  <p><font color="#000000">This document describes the Java subset that students will be
+  expected to understand when they take the AP Computer Science Exam. A number of features
+  are also mentioned that are potentially relevant in a CS1/2 course but are not
+  specifically tested on the AP Computer Science Exam.</font> </p>
+  <p><font color="#000000">When formulating the subset, we were guided by three principles:</font>
+  <ol>
+    <li><font color="#000000">Enable the test designers to formulate meaningful questions.</font>
+    </li>
+    <li><font color="#000000">Help students with test preparation.</font> </li>
+    <li><font color="#000000">Enable instructors to follow a variety of approaches in their
+      courses.</font> </li>
+  </ol>
+  <font color="#000000"><p>To help students with test preparation, the AP Java subset was
+  intentionally kept small. We omitted language constructs and library features that did not
+  add significant functionality and that can, for the formulation of exam questions, be
+  expressed by other mechanisms in the subset. For example, inner classes or the <tt>StringBuffer</tt>
+  class are not essential for the formulation of exam questions &#151; the exam uses
+  alternatives that can be easily understood by students. Of course, these constructs add
+  significant value for programming. Omission of a feature from the AP Java subset does <i>not</i>
+  imply any judgment that the feature is inferior or not worthwhile.</font> </p>
+  <p align="left"><font color="#000000">The AP Java subset gives instructors flexibility in
+  how they use Java in their courses. For example, some courses teach how to perform
+  input/output using streams or readers/writers, others teach graphical user interface
+  construction, and yet others rely on a tool or library that handles input/output. For the
+  purpose of the AP Computer Science Exam, these choices are incidental and are not central
+  for the mastery of computer science concepts. The AP Java subset does not address handling
+  of user input at all. That means that the subset is <i>not complete</i>. To create actual
+  programs, instructors need to present additional mechanisms in their classes.</font> </p>
+  <p><font color="#000000">The following section contains the language features that may be
+  tested on the AP Computer Science Exam.&nbsp; Following that is a section specifying which
+  Standard Java classes and methods will be used on the exam. There will be no extra AP
+  classes provided as part of the subset. A summary table is provided that outlines the
+  features that are tested on the A and AB exams, the AB exam only, and those features that
+  are useful but are not tested on either exam.</font> </p>
+  <blockquote>
+    <h3><font color="#000000">Language Features</font></h3>
+    <ol>
+      <li><font color="#000000">Primitive types:<tt> int</tt>,<tt> double</tt>,<tt> boolean </tt>are
+        part of the AP Java subset.</font> <br>
+        <font color="#000000">The other primitive types<tt> short</tt>,<tt> long</tt>,<tt> byte</tt>,<tt>
+        char</tt>, and<tt> float </tt>are not in the subset. In particular, students need not be
+        aware that strings are composed of <tt>char</tt> values. Introducing<tt> char </tt>does
+        not increase the expressiveness of the subset. Students already need to understand string
+        concatenation,<tt> String.substring </tt>and<tt> String.equals</tt>.<tt> </tt>Not
+        introducing<tt> char </tt>avoids complexities with the<tt> char</tt>/<tt>int </tt>conversions
+        and confusion between<tt> &quot;x&quot; </tt>and<tt> 'x'</tt>.</font> </li>
+      <li><font color="#000000">Arithmetic operators:<tt> +</tt>,<tt> -</tt>,<tt> *</tt>,<tt> /</tt>,<tt>
+        % </tt>are part of the AP Java subset.</font> </li>
+      <li><font color="#000000">Increment/decrement operator:<tt> ++</tt>,<tt> -- </tt>are part of
+        the AP Java subset.</font> <br>
+        <font color="#000000">These operators are used only for their <i>side effect</i>, not for
+        their value. That is, the postfix form (e.g.,<tt> x++</tt>)<tt> </tt>is always used, and
+        the operators are not used inside other expressions. For example,<tt> a[x++] </tt>is not
+        used.</font> </li>
+      <li><font color="#000000">The assignment operator<tt> = </tt>is part of the AP Java subset.</font>
+        <br>
+        <font color="#000000">The combined arithmetic/assignment operators<tt> +=</tt>,<tt> -=</tt>,<tt>
+        *=</tt>,<tt> /=</tt>,<tt> %= </tt>are part of the AP Java subset although they are used
+        simply as a shorthand and will not be used in the adjustment part of a for loop.</font> </li>
+      <li><font color="#000000">Relational operators<tt> ==</tt>,<tt> !=</tt>,<tt> &lt;</tt>,<tt>
+        &lt;=</tt>,<tt> &gt;</tt>,<tt> &gt;= </tt>are part of the AP Java subset.</font> </li>
+      <li><font color="#000000">Logical operations<tt> &amp;&amp;</tt>,<tt> ||</tt>,<tt> ! </tt>are
+        part of the AP Java subset. Students need to understand the &quot;short circuit&quot;
+        evaluation of the<tt> &amp;&amp; </tt>and<tt> || </tt>operators.</font> <br>
+        <font color="#000000">The logical<tt> &amp;</tt>,<tt> | </tt>and<tt> ^ </tt>and the bit
+        operators<tt> &lt;&lt;</tt>,<tt> &gt;&gt;</tt>,<tt> &gt;&gt;&gt;</tt>,<tt> &amp;</tt>,<tt>
+        ~</tt>,<tt> |</tt>,<tt> ^ </tt>are not in the subset.</font> </li>
+      <li><font color="#000000">The ternary<tt> ?: </tt>operator is not in the subset.</font> </li>
+      <li><font color="#000000">The numeric casts<tt> (int) </tt>and<tt> (double) </tt>are&nbsp;
+        part of the AP Java subset.</font> <br>
+        <font color="#000000">Since the only primitive types in the subset are<tt> int</tt>,<tt>
+        double</tt>,<tt> </tt>and<tt> boolean</tt>,<tt> </tt>the only required numeric casts are
+        the cast <tt>(int) </tt>and the cast<tt> (double)</tt>.&nbsp; Students are expected to
+        understand &quot;truncation towards 0&quot; behavior as well as the fact that positive
+        floating-point numbers can be rounded to the nearest integer as<tt> (int)(x + 0.5)</tt>,<tt>
+        </tt>negative numbers as <tt>(int)(x - 0.5)</tt>.</font> </li>
+      <li><font color="#000000">String concatenation<tt> + </tt>is part of the AP Java subset.
+        Students are expected to know that concatenation converts numbers to strings and invokes<tt>
+        toString </tt>on objects.</font> <br>
+        <font color="#000000">String concatenation can be less efficient than using the<tt>
+        StringBuffer </tt>class. However, for greater simplicity and conceptual clarity, the<tt>
+        StringBuffer </tt>class is not in the subset.</font> </li>
+      <li><font color="#000000">The escape sequences inside strings<tt> \\</tt>,<tt> \&quot;</tt>,<tt>
+        \n </tt>are part of the AP Java subset.</font> <br>
+        <font color="#000000">The<tt> \t </tt>escape and Unicode<tt> \uxxxx </tt>escapes are not
+        in the subset. The<tt> \' </tt>escape is only necessary inside character literals and is
+        not in the subset.</font> </li>
+      <li><font color="#000000">User input is not part of the AP Java subset.</font> <br>
+        <font color="#000000">There are many possible ways for supplying user input; e.g., by
+        reading from a<tt> BufferedReader </tt>that is wrapped around<tt> System.in</tt>, reading
+        from a stream (such as a file or an URL), or from a dialog box. There are advantages and
+        disadvantages to the various approaches. In particular, reading from<tt> System.in </tt>is
+        both fraught with complexities (two nested readers and the handling of checked exceptions)
+        and considered old fashioned by some instructors. The exam does not prescribe any one
+        approach. Instead, if reading input is necessary, it will be indicated in a way similar to
+        the following:</font> <pre><tt><font color="#000000">double x = <i>call to a method that reads a floating-point number</i>;</font></tt></pre>
+        <p><font color="#000000">or</font> </p>
+        <pre><tt><font color="#000000">double x = IO.readDouble(); // read user input</font></tt></pre>
+        <p><font color="#000000">Processing string input (e.g., with<tt> StringTokenizer</tt>)<tt>
+        </tt>and converting strings to numeric values (e.g., with<tt> Integer.parseInt</tt>) is
+        not in the subset.</font> </p>
+      </li>
+      <li><font color="#000000">Testing of output is restricted to<tt> System.out.print </tt>and<tt>
+        System.out.println</tt>.</font> <br>
+        <font color="#000000">As with user input, there are many possible ways for directing the
+        output of a program, for example to<tt> System.out</tt>,<tt> </tt>to a file, or to a text
+        area in a graphical user interface. The AP Java subset includes the ability to print
+        output to<tt> System.out</tt>,<tt> </tt>because it makes it easy to formulate questions.
+        Since most graphical environments allow printing of debug messages to<tt> System.out </tt>(with
+        output being collected in a special window, e.g. the &quot;Java console&quot; in a
+        browser), students are usually familiar with this method of producing output.</font> <br>
+        <font color="#000000">Formatted output (e.g., with<tt> NumberFormat</tt>)<tt> </tt>is not
+        in the subset.</font> </li>
+      <li><font color="#000000">The<tt> main </tt>method and command-line arguments are not in the
+        subset.</font> <br>
+        <font color="#000000">Not all students are familiar with the use of the<tt> main </tt>method.
+        Common alternate methods for invoking programs include applets, extending an
+        instructor-provided framework, or using an environment such as BlueJ. The AP Computer
+        Science Exam does not prescribe any particular approach for program invocation. In
+        free-response questions, students are not expected to invoke programs. In case studies,
+        program invocation with<tt> main </tt>may occur, but the<tt> main </tt>method will be kept
+        very simple.</font> </li>
+      <li><font color="#000000">Arrays: one-dimensional arrays and two-dimensional rectangular
+        arrays are part of the AP Java subset. Both arrays of primitive types (e.g.,<tt> int[] </tt>and
+        arrays of objects (e.g.,<tt> Student[]</tt>)are in the subset. Initialization of named
+        arrays (<tt>int[] a = { 1, 2, 3 };</tt>)<tt> </tt>is part of the AP Java subset.</font> <br>
+        <font color="#000000">Arrays with more than two dimensions (e.g.,<tt> rubik = new
+        Color[3][3][3]</tt>) are not in the subset. &quot;Ragged&quot; arrays (e.g.,<tt> new
+        int[3][]</tt>)<tt> </tt>are not in the subset. In particular, students do not need to know
+        that an<tt> int[3][3] </tt>really is an &quot;array of arrays&quot; whose rows can be
+        replaced with other<tt> int[] </tt>arrays. However, students are expected to know that<tt>
+        a[0].length </tt>is the number of columns in a rectangular two-dimensional array <tt>a</tt>.
+        Anonymous arrays (e.g.,<tt> new int[] { 1, 2, 3 }</tt>) are not in the subset.</font> </li>
+      <li><font color="#000000">The control structures<tt> if</tt>,<tt> if/else</tt>,<tt> while</tt>,<tt>
+        for</tt>,<tt> return </tt>are part of the AP Java subset. The<tt> do/while</tt>,<tt>
+        switch</tt>,<tt> </tt>plain and labeled<tt> break </tt>and<tt> continue </tt>statements
+        are not in the subset.</font> </li>
+      <li><font color="#000000">Method overloading (e.g.<tt> MyClass.foo(String s) </tt>and<tt>
+        MyClass.foo(int n)</tt>)<tt> </tt>is part of the AP Java subset. Students should
+        understand that the signature of a method depends on the number, types, and order of its
+        parameters but does not include the return type of the method.</font> </li>
+      <li><font color="#000000">Classes: Students are expected to construct objects with the<tt>
+        new </tt>operator, to supply construction parameters, and to invoke accessor and modifier
+        methods. For the A exam, students are expected to modify existing classes (by adding or
+        modifying methods and instance variables). For the AB exam, students are expected to
+        design their own classes.</font> </li>
+      <li><font color="#000000">Visibility: In the AP Java subset, all classes are<tt> public</tt>.<tt>
+        </tt>All instance variables are<tt> private</tt>. Methods, constructors, and constants<tt>
+        </tt>(<tt>static final </tt>variables) are either<tt> public </tt>or<tt> private</tt>.</font>
+        <br>
+        <font color="#000000">The AP Java subset does not use<tt> protected </tt>and package
+        (default) visibility.</font> </li>
+      <li><font color="#000000">The AP Java subset uses<tt> /*&nbsp; */</tt>,<tt> </tt>and<tt> // </tt>comments.
+        Javadoc comments are not part of the subset.</font> </li>
+      <li><font color="#000000">The<tt> final </tt>keyword is only used for<tt> final </tt>block
+        scope constants and<tt> static final </tt>class scope constants.</font> <br>
+        <font color="#000000"><tt>final </tt>parameter or instance variables,<tt> final </tt>methods
+        and<tt> final </tt>classes are not in the subset.</font> </li>
+      <li><font color="#000000">The concept of<tt> static </tt>methods is a part of the subset.
+        Students are required to understand when the use of<tt> static </tt>methods is
+        appropriate.</fon>
+<HR><H3>Transfer interrupted!</H3>
+>In the exam,<tt> static </tt>methods are always invoked through a
+        class, never an object (i.e.,<tt> ClassName.foo()</tt>,<tt> </tt>not<tt> obj.foo()</tt>).</font>
+      </li>
+      <li><font color="#000000"><tt>static final </tt>variables are part of the subset, other<tt>
+        static </tt>variables are not.</font> </li>
+      <li><font color="#000000">The<tt> null </tt>reference is part of the AP Java subset.</font> </li>
+      <li><font color="#000000">The use of<tt> this </tt>is restricted to passing the implicit
+        parameter in its entirety to another method (e.g.,<tt> obj.method(this)</tt>) and to
+        descriptions such as &quot;the implicit parameter<tt> this</tt>&quot;. Using<tt> this.var </tt>or<tt>
+        this.method(args) </tt>is not in the subset. In particular, students are not required to
+        know the idiom<tt> &quot;this.var = var&quot;</tt>,<tt> </tt>where<tt> var </tt>is both
+        the name of an instance variable and a parameter variable.</font> <br>
+        <font color="#000000">Calling other constructors from a constructor with the<tt>
+        this(args) </tt>notation is not in the subset.</font> </li>
+      <li><font color="#000000">The use of<tt> super </tt>is restricted to invoking a superclass
+        constructor (<tt>super(args)</tt>). Invoking a superclass method through the<tt> super </tt>keyword
+        (i.e.,<tt> super.method(args)</tt>)<tt> </tt>may be tested on the AB exam.</font> </li>
+      <li><font color="#000000">Students need to be able to implement constructors that initialize
+        all instance variables. Class constants are initialized with an initializer:</font> <pre><tt><font color="#000000">public static final MY_CONSTANT = <i>initialization expression</i>;</font></tt></pre>
+        <p><font color="#000000">The rules for default initialization (with 0,<tt> false </tt>or<tt>
+        null</tt>) are not in the subset. Initializing instance variables with an initializer is
+        not in the subset. Initialization blocks are not in the subset.</font> </p>
+      </li>
+      <li><font color="#000000">Students are expected to be able to extend classes and implement
+        interfaces. On the A exam, students are expected to have a reading knowledge of
+        inheritance that includes understanding the concepts of method overriding and polymorphism
+        as well as the ability to modify existing subclasses. On the AB exam, students are
+        expected to implement their own subclasses.</font> </li>
+      <li><font color="#000000">Students are expected to be able to read the definitions of
+        interfaces and abstract classes and understand that the abstract methods need to be
+        redefined. On the AB exam, students are expected to define their own interfaces and
+        abstract classes.</font> </li>
+      <li><font color="#000000">Students are expected to understand the difference between object
+        equality<tt> </tt>(<tt>equals</tt>)<tt> </tt>and identity<tt> </tt>(<tt>==</tt>).</font> <br>
+        <font color="#000000">The implementation of<tt> equals </tt>and<tt> hashCode </tt>methods
+        are not in the subset.</font> </li>
+      <li><font color="#000000">Cloning is not in the subset, because of the complexities of
+        implementing the<tt> clone </tt>method correctly and the fact that<tt> clone </tt>is
+        rarely required in Java programs.</font> <br>
+        <font color="#000000">The<tt> finalize </tt>method is not in the subset.</font> </li>
+      <li><font color="#000000">Students are expected to understand that conversion from a
+        subclass reference to a superclass reference is legal and does not require a cast. Class
+        casts (generally from<tt> Object </tt>to another class) are part of the AP Java subset, to
+        enable the use of generic collections, for example,<tt> Person p = (Person)people.get(i);</tt></font>
+        <br>
+        <font color="#000000">The<tt> instanceof </tt>operator is not in the subset. Array type
+        compatibility and casts between array types are not in the subset.</font> </li>
+      <li><font color="#000000">Students are expected to have a basic understanding of packages
+        and a reading knowledge of <tt>import</tt> statements of the form</font> <pre><font color="#000000">import packageName.subpackageName.ClassName;</font></pre>
+        <p><font color="#000000"><tt>import</tt> statements with a trailing <tt>*</tt>, packages
+        and methods for locating class files (e.g., through a class path) are not in the subset.</font>
+        </p>
+      </li>
+      <li><font color="#000000">Inner classes are not in the subset.</font> </li>
+      <li><font color="#000000">Threads are not in the subset.</font> </li>
+      <li><font color="#000000">Students are expected to understand the exceptions that occur when
+        their programs contain errors (in particular,<tt> NullPointerException</tt>,<tt>
+        ArrayIndexOutOfBoundsException</tt>,<tt> ArithmeticException</tt>,<tt> ClassCastException</tt>).<tt>
+        </tt>Students are expected to be able to throw the unchecked<tt> IllegalStateException </tt>and<tt>
+        NoSuchElementException </tt>in their own methods (principally when implementing collection
+        ADTs).</font> <br>
+        <font color="#000000">Checked exceptions are not in the subset. In particular, the<tt>
+        try/catch/finally </tt>statements and the<tt> throws </tt>modifier are not in the subset.</font></li>
+    </ol>
+    <h3><font color="#000000">Standard classes and interfaces with their required methods</font></h3>
+    <font color="#000000"><p>The following classes, interfaces, and methods are used on the AP
+    Exam. The exam contains a reference sheet (similar to the following).</font> <ol>
+      <li><tt><font color="#000000">class java.lang.String</font></tt> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><tt><font color="#000000">extends java.lang.Object</font></tt> </li>
+              <li><font color="#000000">immutable</font> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">boolean compareTo(Object other)</font></tt> </li>
+              <li><tt><font color="#000000">boolean equals(Object other)</font></tt> </li>
+              <li><tt><font color="#000000">int length()</font></tt> </li>
+              <li><tt><font color="#000000">String substring(int from, int to)</font></tt> </li>
+              <li><tt><font color="#000000">String substring(int from)</font></tt> </li>
+              <li><tt><font color="#000000">int indexOf(String s)</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><tt><font color="#000000">class java.lang.Math</font></tt> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><font color="#000000">&nbsp;Trigonometric functions are not part of the subset because
+                trigonometry is not a prerequisite for AP Computer Science.</font> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">static int abs(int x)</font></tt> </li>
+              <li><tt><font color="#000000">static double abs(double x)</font></tt> </li>
+              <li><tt><font color="#000000">static double pow(double base, double exponent)</font></tt> </li>
+              <li><tt><font color="#000000">static double sqrt(double x)</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><tt><font color="#000000">class java.lang.Object</font></tt> <ul>
+          <li><font color="#000000">Notes:</font> </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">boolean equals(Object other)</font></tt> </li>
+              <li><tt><font color="#000000">String toString(Object other)</font></tt> </li>
+              <li><font color="#000000"><tt>int hashCode() </tt>(AB only)</font> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><tt><font color="#000000">class java.lang.Integer</font></tt> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><tt><font color="#000000">extends java.lang.Object</font></tt> </li>
+              <li><font color="#000000">immutable</font> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><font color="#000000">constructor from<tt> int</tt></font> </li>
+              <li><tt><font color="#000000">intValue</font></tt> </li>
+              <li><tt><font color="#000000">equals(Object other)</font></tt> </li>
+              <li><tt><font color="#000000">toString(Object other)</font></tt> <br>
+                <font color="#000000"><tt>(</tt>overrides method in<tt> java.lang.Object)</tt></font> </li>
+              <li><font color="#000000"><tt>compareTo(Object other) </tt>specified by<tt>
+                java.lang.Comparable</tt></font> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><tt><font color="#000000">class java.lang.Double</font></tt> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><tt><font color="#000000">extends java.lang.Object</font></tt> </li>
+              <li><font color="#000000">immutable</font> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><font color="#000000">constructor from<tt> double</tt></font> </li>
+              <li><tt><font color="#000000">doubleValue</font></tt> </li>
+              <li><tt><font color="#000000">equals(Object other)</font></tt> </li>
+              <li><tt><font color="#000000">toString(Object other)</font></tt> <br>
+                <font color="#000000"><tt>(</tt>overrides method in<tt> java.lang.Object)</tt></font> </li>
+              <li><font color="#000000"><tt>compareTo(Object other) </tt>specified by<tt>
+                java.lang.Comparable</tt></font> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><tt><font color="#000000">class java.util.Random</font></tt> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><font color="#000000">While<tt> Math.Random </tt>might be easier to use,<tt>
+                java.util.Random </tt>directly produces both integers and real numbers (in the range 0 to
+                1).</font> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">int nextInt(int n)</font></tt> </li>
+              <li><tt><font color="#000000">double nextDouble()</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><tt><font color="#000000">class java.util.ArrayList</font></tt> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><font color="#000000">AP Computer Science A students only need to know&nbsp; 6 methods
+                below.</font> </li>
+              <li><font color="#000000">AP Computer Science AB students need to know that<tt> ArrayList </tt>implements<tt>
+                List </tt>and which methods from<tt> ArrayList&nbsp;</tt> implement those specified by<tt>
+                List</tt>.</font> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods specified by<tt> interface java.util.List</tt></font>
+            <ul>
+              <li><font color="#000000"><tt>ListIterator listIterator() </tt>(AB only)</font> </li>
+              <li><tt><font color="#000000">int size()</font></tt> </li>
+              <li><tt><font color="#000000">boolean add(Object x)</font></tt> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods not part of<tt> interface java.util.List</tt></font>
+            <ul>
+              <li><tt><font color="#000000">Object get(int n)</font></tt> </li>
+              <li><tt><font color="#000000">void set(int n, Object x)</font></tt> </li>
+              <li><tt><font color="#000000">boolean add(int n, Object x)</font></tt> </li>
+              <li><tt><font color="#000000">Object remove(int n)</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>interface java.lang.Comparable </tt>(AB only)</font> <ul>
+          <li><font color="#000000">Required method</font> <ul>
+              <li><tt><font color="#000000">boolean compareTo(Object other)</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>interface java.util.List </tt>(AB only)</font> <ul>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">ListIterator listIterator()</font></tt> </li>
+              <li><tt><font color="#000000">int size()</font></tt> </li>
+              <li><tt><font color="#000000">void add(Object x)</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>class java.util.LinkedList </tt>(AB only)</font> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><tt><font color="#000000">implements interface java.util.List</font></tt> </li>
+              <li><font color="#000000"><tt>listIterator</tt>,<tt> size</tt>,<tt> </tt>and<tt> add </tt>are
+                implemented from<tt> java.util.List</tt>,<tt> </tt>the others are not part of<tt> List</tt></font>
+              </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">ListIterator listIterator()</font></tt> </li>
+              <li><tt><font color="#000000">int size()</font></tt> </li>
+              <li><tt><font color="#000000">void add(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">void addFirst(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">void addLast(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">Object getFirst()</font></tt> </li>
+              <li><tt><font color="#000000">Object getLast()</font></tt> </li>
+              <li><tt><font color="#000000">Object removeFirst()</font></tt> </li>
+              <li><tt><font color="#000000">Object removeLast()</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>interface java.util.Set </tt>(AB only)</font> <ul>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">boolean add(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">boolean contains(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">boolean remove(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">int size()</font></tt> </li>
+              <li><tt><font color="#000000">Iterator iterator()</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>class java.util.HashSet </tt>and<tt> class java.util.TreeSet </tt>(AB
+        only)</font> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><tt><font color="#000000">implements interface java.util.Set</font></tt> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">boolean add(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">boolean contains(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">boolean remove(Object x)</font></tt> </li>
+              <li><tt><font color="#000000">int size()</font></tt> </li>
+              <li><tt><font color="#000000">Iterator iterator()</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>interface java.util.Map </tt>(AB only)</font> <ul>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">Object put(Object key, Object value)</font></tt> </li>
+              <li><tt><font color="#000000">Object get(Object key)</font></tt> </li>
+              <li><tt><font color="#000000">boolean containsKey(Object key)</font></tt> </li>
+              <li><tt><font color="#000000">int size()</font></tt> </li>
+              <li><tt><font color="#000000">Set keySet()</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>class java.util.HashMap </tt>and<tt> class java.util.TreeMap </tt>(AB
+        only)</font> <ul>
+          <li><font color="#000000">Notes:</font> <ul>
+              <li><tt><font color="#000000">implements interface java.util.Map</font></tt> </li>
+            </ul>
+          </li>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">Object put(Object key, Object value)</font></tt> </li>
+              <li><tt><font color="#000000">Object get(Object key)</font></tt> </li>
+              <li><tt><font color="#000000">boolean containsKey(Object key)</font></tt> </li>
+              <li><tt><font color="#000000">int size()</font></tt> </li>
+              <li><tt><font color="#000000">Set keySet()</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>interface java.util.Iterator </tt>(AB only)</font> <ul>
+          <li><font color="#000000">Required methods</font> <ul>
+              <li><tt><font color="#000000">boolean hasNext()</font></tt> </li>
+              <li><tt><font color="#000000">Object next()</font></tt> </li>
+              <li><tt><font color="#000000">void remove()</font></tt> </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><font color="#000000"><tt>interface java.util.ListIterator </tt>(AB only)</font> <ul>
+          <li><tt><font color="#000000">extends interface java.util.Iterator</font></tt> </li>
+          <li><font color="#000000">&nbsp;In addition to the<tt> Iterator </tt>methods, the following
+            methods are required</font> </li>
+        </ul>
+        <ul>
+          <ul>
+            <li><tt><font color="#000000">void add(Object x)</font></tt> </li>
+            <li><tt><font color="#000000">void set(Object x)</font></tt> </li>
+          </ul>
+        </ul>
+      </li>
+    </ol>
+    <h3><font color="#000000">Summary</font></h3>
+    <table border="1" cellPadding="3" cellSpacing="0" width="89%">
+<tbody>
+      <tr>
+        <th><font color="#000000">Tested in A, AB exam</font></th>
+        <th><font color="#000000">Tested in AB exam only</font></th>
+        <th><font color="#000000">Potentially relevant to CS1/CS2 course but not tested</font></th>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>int</tt>, <tt>double</tt>, <tt>boolean</tt></font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>short</tt>, <tt>long</tt>, <tt>byte</tt>, <tt>char</tt>, <tt>float</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>+</tt> , <tt>-</tt>, <tt>*</tt>, <tt>/</tt>, <tt>%</tt>, <tt>++</tt>,
+        <tt>--</tt></font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000">Using the values of <tt>++</tt>, <tt>--</tt> expressions in
+        other expressions</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>=</tt>, <tt>+=</tt>, <tt>-=</tt>, <tt>*=</tt>, <tt>/=</tt>, <tt>%=</tt></font></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>==</tt>, <tt>!=</tt>, <tt>&lt;</tt>, <tt>&lt;=</tt>, <tt>&gt;</tt>,
+        <tt>&gt;=</tt></font></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>&amp;&amp;</tt>, <tt>||</tt>, <tt>!</tt> and short-circuit
+        evaluation</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>&lt;&lt;</tt>, <tt>&gt;&gt;</tt>, <tt>&gt;&gt;&gt;</tt>, <tt>&amp;</tt>,
+        <tt>~</tt>, <tt>|</tt>, <tt>^</tt>, <tt>?:</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>(int)</tt>,<tt> (double)</tt></font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000">Other numeric casts such as <tt>(char)</tt> or <tt>(float)</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">String concatenation</font></td>
+        <td>&nbsp;</td>
+        <td><tt><font color="#000000">StringBuffer</font></tt></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Escape sequences <tt>\&quot;</tt> <tt>\\</tt> <tt>\n</tt> inside
+        strings</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000">Other escape sequences (<tt>\'</tt> <tt>\t</tt> <tt>\unnnn</tt>)</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>System.out.print</tt>, <tt>System.out.println</tt></font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>System.in</tt>, Stream input/output, GUI input/output,
+        parsing input, formatted output</font></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><tt><font color="#000000">public static void main(String args)</font></tt></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">1-dimensional arrays, 2-dimensional rectangular arrays</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000">arrays with 3 or more dimensions, ragged arrays</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>if</tt>, <tt>if</tt>/<tt>else</tt>, <tt>while</tt>, <tt>for</tt>,
+        <tt>return</tt></font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>do</tt>/<tt>while</tt>, <tt>switch</tt>, <tt>break</tt>, <tt>continue</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Modify existing classes</font></td>
+        <td><font color="#000000">Design classes</font></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>public</tt> classes, <tt>private</tt> instance variables, <tt>public</tt>
+        or <tt>private</tt> methods or constants</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>protected</tt> or package visibility</font></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>@param</tt>, <tt>@return</tt>, <tt>@precondition</tt>, <tt>@postcondition</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>final</tt> local variables, <tt>static final</tt> class
+        variables</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>final</tt> parameter variables, instance variables, methods
+        or classes</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>static</tt> methods</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>static</tt> non-<tt>final</tt> variables</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>null</tt>, <tt>this</tt>, <tt>super</tt></font></td>
+        <td><font color="#000000">&nbsp; <tt>super.method(args)</tt></font></td>
+        <td><font color="#000000"><tt>this.var</tt>, <tt>this.method(args)</tt>, <tt>this(args)</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Constructors and initialization of static variables</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000">default initialization of instance variables, initialization
+        blocks</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Understand inheritance hierarchies. Modifying subclass
+        implementations and implementations of interfaces.</font></td>
+        <td><font color="#000000">Design and implement subclasses</font></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Understand the concepts of abstract classes and interfaces</font></td>
+        <td><font color="#000000">Design and implement abstract classes and interfaces</font></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Understand <tt>equals</tt>, <tt>==</tt> and <tt>!=</tt>
+        comparison of objects</font></td>
+        <td><tt><font color="#000000">Comparable.compareTo</font></tt></td>
+        <td><font color="#000000"><tt>clone</tt>, implementation of <tt>equals</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Conversion to supertypes and <tt>(Subtype)</tt> casts</font></td>
+        <td>&nbsp;</td>
+        <td><tt><font color="#000000">instanceof</font></tt></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><font color="#000000">Inner classes</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Package concept. <tt>import x.y.Z;</tt></font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000"><tt>import x.y.*</tt>, defining packages, class path</font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000">Exception concept. Common exceptions. Throwing standard
+        unchecked exceptions</font></td>
+        <td>&nbsp;</td>
+        <td><font color="#000000">Checked exceptions.&nbsp; <tt>try/catch/finally</tt>.&nbsp; <tt>throws</tt></font></td>
+      </tr>
+      <tr>
+        <td><font color="#000000"><tt>String</tt>, <tt>Math</tt>, <tt>Random</tt>, <tt>Object</tt>,
+        <tt>ArrayList</tt></font></td>
+        <td><font color="#000000"><i><tt>Comparable</tt></i>, <i><tt>List</tt></i>, <i><tt>Set</tt>,
+        <tt>Map</tt></i>, <i><tt>Iterator</tt>, <tt>ListIterator</tt></i>, <tt>LinkedList</tt>, <tt>HashSet</tt>,
+        <tt>TreeSet</tt>,<tt>HashMap</tt>, <tt>TreeMap</tt></font></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><font color="#000000">Wrapper classes (<tt>Integer</tt>, <tt>Double</tt>)</font></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><font color="#000000">Sorting methods in <tt>Arrays</tt> and <tt>Collections</tt></font></td>
+        <td>&nbsp;</td>
+      </tr>
+</tbody>
+    </table>
+  </blockquote>
+  <p>~<b> <a href="../index.html">AP Computer Science Main Menu</a></b> ~ <strong><a href="java_announcement.html">Java Introduction</a> </strong>~</p>
+</blockquote>
+<!--webbot bot="Include" U-Include="../_private/ap_foot_generic.htm" TAG="BODY" startspan -->
+
+<table border="0" cellpadding="3" cellspacing="0">
+  <tr>
+    <td valign="bottom" nowrap><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><a href="http://web.millburn.org/index.html">home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://web.millburn.org/html/library000.html">library</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://web.millburn.org/toc/html/tocprograms000.html">site&nbsp;directory</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://web.millburn.org/html/communications000.html">contact&nbsp;us</a><br>
+    </font></td>
+  </tr>
+  <tr>
+    <td valign="bottom" nowrap><br>
+    <font face="verdana" size="1"><span class="body2">Copyright © 2001 by the College
+    Entrance Examination Board. <br>
+    All rights reserved. <a href="http://web.millburn.org/html/copyright000.html"><font color="000000">Terms and
+    Conditions</font></a></span></font></td>
+  </tr>
+</table>
+<!--webbot bot="Include" endspan i-checksum="51271" -->
+
+</body>
+
+<!-- Mirrored from web.millburn.org/farrell/APCompSci/AdminInfo/AP_Student_Ref_Material/java_subset.html by HTTrack Website Copier/3.x [XR&CO'2010], Mon, 19 Sep 2011 00:25:49 GMT -->
+</html>

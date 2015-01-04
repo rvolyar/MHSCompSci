@@ -1,0 +1,9 @@
+Harrelson 101 525
+Garrett 125 550
+Jones 201 510
+Agee 191 521
+Grote 126 420
+Clendenon 156 486
+Charles 99 445
+Mayes 175 500
+

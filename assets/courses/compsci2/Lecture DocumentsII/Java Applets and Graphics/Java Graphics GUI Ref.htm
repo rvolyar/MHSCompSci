@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://applecore.cs.williams.edu/~cs134/current/handouts/GUICheatSheet.html -->
+<HTML>
+<!-- Mirrored from web.millburn.org/farrell/compsciII/Lecture%20Documents/Java%20Applets%20and%20Graphics/Java%20Graphics%20GUI%20Ref.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 18 Sep 2011 23:06:10 GMT -->
+<HEAD><TITLE>Java Graphics Quick Reference</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><!-- XML file produced from file: GUICheatSheet.tex --
+ -- using Hyperlatex v 2.5 (c) Otfried Cheong--
+ -- on Emacs 21.1.1, Wed Mar 12 11:24:05 2003 -->
+<META content="MSHTML 6.00.2715.400" name=GENERATOR></HEAD>
+<BODY>
+<DIV align=center><B><FONT size=+1>AWT/GUI Cheat Sheet</FONT></B> </DIV>
+<H4><A name=1>General reminders</A></H4>
+<P>
+<P>To display an AWT component, you must: 
+<UL>
+  <LI>Construct the component 
+  <LI>Add it to the display or to a panel that is added to the display </LI></UL>
+<P>To get input from an AWT component, you must do the following: 
+<UL>
+  <LI>Declare that the listener's class implements the appropriate listener 
+  interface 
+  <LI>Define the method that the listener interface requires </LI></UL>
+<P>Finally, you must glue the display with the input handling method: 
+<UL>
+  <LI>Add a listener appropriate for the component </LI></UL>
+<P>If a method returns a <TT>String</TT>, remember to compare the result using 
+the <TT>equals</TT> method, not <TT>==</TT>: <PRE>    aChoice.getSelectedItem ().equals ("A value")
+</PRE>
+<H4><A name=2>GUI Components</A></H4>
+<P>
+<P>The following methods can be applied to any Component: <PRE>    void setFont (Font f)
+    void setForeground (Color c)
+    void setBackground (Color c)
+</PRE>
+<P>The specific components we have considered: 
+<OL>
+  <LI><B>Font</B> 
+  <P>Construct a font using: <PRE>    new Font (String name, int style, int size)
+</PRE>
+  <P>Find out the font names on the computer in JBuilder as follows: 
+  <UL>
+    <LI>Open the Tools menu 
+    <LI>Select Editor Options... 
+    <LI>Select Display 
+    <LI>Look at the Font family Choice menu. </LI></UL>
+  <P>Style can be one of <TT>Font.BOLD</TT>, <TT>Font.ITALIC</TT>, 
+  <TT>Font.PLAIN</TT>, or <TT>Font.BOLD + Font.ITALIC</TT>. </P>
+  <LI><B>Button</B> 
+  <DL>
+    <DT><B>Constructor:</B>
+    <DD><PRE>new Button(String s)
+</PRE>
+    <DT><B>GUI Methods:</B>
+    <DD><PRE>void addActionListener (ActionListener al)
+String getLabel( )
+void setLabel(String s)
+</PRE>
+    <DT><B>Listening and Event Methods:</B>
+    <DD><PRE>void actionPerformed(ActionEvent e)
+</PRE><I>To find out which button was clicked, use:</I> <PRE>e.getSource()
+</PRE></DD></DL>
+  <LI><B>Checkbox</B> 
+  <DL>
+    <DT><B>Constructors:</B>
+    <DD>
+    <P><I>Independent checkbox:</I> <PRE>new Checkbox(String s, boolean selected)
+</PRE><I>Radio button: </I><PRE>new Checkbox(String s, boolean selected, CheckboxGroup cg)
+</PRE><I>Create CheckboxGroup with</I> <PRE>new CheckboxGroup()
+</PRE>
+    <DT><B>GUI Method:</B>
+    <DD><PRE>void addItemListener(ItemListener il)
+</PRE>
+    <DT><B>Listening and Event Methods:</B>
+    <DD><PRE>void itemStateChanged(ItemEvent e)
+</PRE><I>To find out which checkbox was clicked, use:</I> <PRE>e.getSource()
+</PRE><I>To find out if the checkbox was checked (as opposed to cleared), 
+    use:</I> <PRE>e.getStateChange() == ItemEvent.SELECTED
+</PRE></DD></DL>
+  <LI><B>Choice</B> 
+  <DL>
+    <DT><B>Constructor:</B>
+    <DD><PRE>new Choice( )
+</PRE>
+    <DT><B>GUI Methods:</B>
+    <DD><PRE>void addItemListener(ItemListener il)
+</PRE><PRE>void addItem(String item)
+</PRE><I>To find out which item was selected, use:</I> <PRE>String getSelectedItem( )
+</PRE>
+    <DT><B>Listening and Event Methods:</B>
+    <DD><PRE>void itemStateChanged(ItemEvent e)
+</PRE></DD></DL>
+  <LI><B>Label</B> 
+  <DL>
+    <DT><B>Constructors:</B>
+    <DD><PRE>new Label(String s)
+</PRE><PRE>new Label (String s, int align)
+</PRE><I>align is one of Label.RIGHT, Label.LEFT, Label.CENTER</I> 
+    <DT><B>GUI Methods:</B>
+    <DD><PRE>void setText(String s)
+</PRE><PRE>String getText( )
+</PRE>
+    <DT><B>Listening and Event Methods:</B>
+    <DD>
+    <P><I>no listeners available for labels</I> </P></DD></DL>
+  <LI><B>Scrollbar</B> 
+  <DL>
+    <DT><B>Constructor:</B>
+    <DD><PRE>new Scrollbar(int orientation, int value, int visible,
+              int minimum, int maximum)
+</PRE><I>orientation is one of Scrollbar.HORIZONTAL or 
+    Scrollbar.VERTICAL</I> 
+    <DT><B>GUI Methods:</B>
+    <DD><PRE>addAdjustmentListener(AdjustmentListener al)
+</PRE><PRE>void setValue(int newVal)
+</PRE><I>To find out the current value, use:</I> <PRE>int getValue( )
+</PRE>
+    <DT><B>Listening and Event Methods:</B>
+    <DD><PRE>void adjustmentValueChanged(AdjustmentEvent e)
+</PRE></DD></DL>
+  <LI><B>TextField</B> 
+  <DL>
+    <DT><B>Constructors:</B>
+    <DD><PRE>new TextField(String s)
+</PRE><PRE>new TextField(String s,int cols)
+</PRE>
+    <DT><B>GUI Methods:</B>
+    <DD><PRE>addActionListener(ActionListener al)
+</PRE><PRE>void setText(String s)
+</PRE><I>To find out the value typed, use:</I> <PRE>String getText( )
+</PRE>
+    <DT><B>Listening and Event Methods:</B>
+    <DD><PRE>void actionPerformed(ActionEvent e)
+</PRE></DD></DL></LI></OL>
+<H4><A name=3>Containers</A></H4>
+<P>
+<P>Both <TT>WindowController</TT> and <TT>Panel</TT> are containers. The 
+following methods are available for all containers. To define the type of 
+layout, use: <PRE>    void setLayout (LayoutManager lm)
+</PRE><TT>LayoutManager</TT> may be any of the layout managers listed below. 
+<P>To add something to a container: <PRE>    void add (Component c)
+</PRE><TT>Component</TT> may be any <TT>Component</TT> (such as <TT>Button</TT>, 
+<TT>TextField</TT>, <TT>Slider</TT>, ...) or <TT>Container</TT> (such as 
+<TT>Panel</TT>). Use the method above if the container has a <TT>FlowLayout</TT> 
+or <TT>GridLayout</TT>. Use the one below if it has a <TT>BorderLayout</TT>. <PRE>    void add (Component c, int position)
+</PRE>The position may be any of <TT>BorderLayout.NORTH</TT>, 
+<TT>BorderLayout.SOUTH</TT>, <TT>BorderLayout.EAST</TT>, 
+<TT>BorderLayout.WEST</TT>, or <TT>BorderLayout.CENTER</TT>. 
+<P>Constructing a <TT>Panel</TT> is very straightforward: <PRE>new Panel()
+</PRE>
+<H4><A name=4>Layout Managers</A></H4>
+<OL>
+  <LI><B>BorderLayout </B>(<I>Default for WindowController</I>) 
+  <P>Constructor: <PRE>new BorderLayout()
+</PRE>
+  <LI><B>FlowLayout</B> (<I>Default for Panel</I>) 
+  <P>Constructor: <PRE>new FlowLayout()
+</PRE>
+  <LI><B>GridLayout</B> 
+  <P>Constructors: <PRE>new GridLayout(int rows, int cols)
+</PRE><PRE>new GridLayout(int rows, int cols, int colSpacing, int rowSpacing)
+</PRE></LI></OL>
+<HR>
+</BODY>
+<!-- Mirrored from web.millburn.org/farrell/compsciII/Lecture%20Documents/Java%20Applets%20and%20Graphics/Java%20Graphics%20GUI%20Ref.htm by HTTrack Website Copier/3.x [XR&CO'2010], Sun, 18 Sep 2011 23:06:10 GMT -->
+</HTML>

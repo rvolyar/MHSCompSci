@@ -1,0 +1,34 @@
+title = "Bulletin"
+url = "/bulletin/:page?"
+layout = "pages"
+meta_title = "Bulletin"
+meta_description = "All the latest news, announcements and more from MHS Comp Sci"
+child_of = "home"
+
+[blogPosts]
+pageParam = ":page"
+postsPerPage = "10"
+noPostsMessage = "No posts found"
+categoryPage = "Bulletin"
+categoryPageIdParam = ":slug"
+postPage = "bulletin/post"
+postPageIdParam = ":slug"
+
+[blogCategories]
+idParam = ":slug"
+displayEmpty = "1"
+categoryPage = "Bulletin"
+categoryPageIdParam = ":slug"
+==
+<div class="row">
+<div class="col-md-9">
+    {% component 'blogPosts' %}
+</div>
+
+
+<div class="col-md-3">
+
+        {% component 'blogCategories' %}
+
+</div>
+</div>

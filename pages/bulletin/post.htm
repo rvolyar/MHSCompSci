@@ -1,0 +1,22 @@
+title = "Bulletin Post"
+url = "/bulletin/post/:slug"
+layout = "pages"
+child_of = "Bulletin"
+
+[blogPost]
+idParam = ":slug"
+categoryPage = "blog/category"
+categoryPageIdParam = ":slug"
+==
+<?php
+function onEnd()
+{
+    if (isset($this['post']))
+        $this->page->title = $this['post']->title;
+        $this->page->meta_title = $this['post']->title;
+        $this->page->description = $this['post']->excerpt;
+        $this->page->meta_description = $this['post']->excerpt;
+}
+?>
+==
+{% component 'blogPost' %}

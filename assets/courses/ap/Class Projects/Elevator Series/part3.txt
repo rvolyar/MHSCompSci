@@ -1,0 +1,12 @@
+1 Francis Normal 160 8
+2 Zacherelli Executive 115 1
+3 Klein	 Normal 140 1
+5 E-Dogg Normal 150 8
+5 Kommunistkov Janitor 150 12
+8 Bruno	Normal 210 1
+9 Rajat	Janitor 180 1
+9 Lamikins Normal 155 1
+10 C-Diddy Normal 135 3
+12 Fung	Janitor 155 1
+14 Mike	Executive 195 1
+19 Farrell Executive 270 1

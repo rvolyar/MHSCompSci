@@ -1,0 +1,56 @@
+title = "Home"
+url = "/"
+layout = "pages"
+description = "Home Page"
+hidden = "0"
+meta_title = "Home"
+meta_description = "Millburn High School's computer science class website.  Instructed by David Farrel and Mr. Cosma"
+child_of = "mey_no_parent"
+hide_crumb = "1"
+remove_crumb_trail = "0"
+crumb_disabled = "0"
+
+[blogPosts]
+pageParam = ":page"
+categoryFilter = "Anouncements"
+postsPerPage = "1"
+noPostsMessage = "No posts found"
+postOrderAttr = "published_at desc"
+categoryPage = "Bulletin"
+postPage = "bulletin/post"
+==
+<div class="image">
+    <img src="{{ 'assets/images/homepage-image.jpg'|theme }}" width="100%" height="auto">
+    <!--<div class="gradient"></div>-->
+    <div class="text">
+      <div class="row">
+            <div class="col-md-4">
+                <h2>Anouncements</h2>
+{% component 'blogPosts' %}
+                
+
+                <p><a class="btn" href="{{ '/bulletin'|app }}">View more »</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <h2>About Comp Sci</h2>
+
+                <p>Computer Science is the study of how computational
+                algorithms work. Computer science deals with the concepts and
+                processes behind what computers do.</p>
+
+                <p><a class="btn" href="{{ '/about'|app }}">View more »</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <h2>Contact</h2>
+
+                <p>Contact Mr. Farrel, Mr. Cosma or the school for any
+                questions you may have</p>
+
+                <p><a class="btn" href="{{ '/contact'|app }}">View more
+                »</a></p>
+            </div>
+        </div>
+    </div>
+  </div>
